@@ -5,8 +5,8 @@
 #google_analytics:
 #theme: jekyll-theme-minimal
 
-title: Mattias G
-description: Portfolio – Cybersecurity, Design, and Code
+title: Portfolio
+description: Cybersecurity, Design, and Code
 remote_theme: pages-themes/minimal@v0.2.0
 
 plugins:
