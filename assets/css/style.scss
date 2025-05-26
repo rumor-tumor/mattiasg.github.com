@@ -30,7 +30,11 @@ h1, h2, h3, h4, h5, h6 {
   width: fit-content;
   margin: 1rem;
   z-index: 999;
+  transition: box-shadow 0.3s ease;
 }
+
+.site-header:hover {
+  box-shadow: 0 0 20px #00e0ff; /* glowing blue outline hover */
 
 .site-title {
   color: #00e0ff; /* neon blue */
@@ -44,9 +48,4 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.1rem;
   font-weight: bold;
   text-shadow: 0 0 8px #000000;
-}
-
-.site-header:hover {
-  box-shadow: 0 0 20px #00e0ffaa;
-  transition: box-shadow 0.3s ease;
 }
