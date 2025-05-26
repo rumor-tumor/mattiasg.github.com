@@ -22,3 +22,33 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #00e0ff; /* Optional: neon blue headers */
 }
+
+.site-header {
+  background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black backdrop */
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  position: relative;
+  z-index: 1000;
+  width: fit-content;
+  margin: 1rem;
+}
+
+.site-title {
+  color: #00e0ff; /* neon blue */
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-shadow: 0 0 8px #00e0ff;
+}
+
+.site-description {
+  color: #dddddd;
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 0.25rem;
+  text-shadow: 0 0 5px #00e0ff88;
+}
+
+.site-header:hover {
+  box-shadow: 0 0 20px #00e0ffaa;
+  transition: box-shadow 0.3s ease;
+}
