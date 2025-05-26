@@ -24,28 +24,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-header {
-  background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black backdrop */
+  background-color: rgba(0, 0, 0, 65); /* dark backdrop */
   padding: 1rem 1.5rem;
   border-radius: 12px;
-  position: relative;
-  z-index: 1000;
   width: fit-content;
   margin: 1rem;
+  z-index: 999;
 }
 
 .site-title {
   color: #00e0ff; /* neon blue */
-  font-size: 1.8rem;
-  font-weight: bold;
-  text-shadow: 0 0 8px #00e0ff;
+  font-size: 2rem;
+  font-weight: 900;
+  text-shadow: 0 0 10px #00e0ff, 0 0 20px #00e0ff66;
 }
 
 .site-description {
-  color: #dddddd;
-  font-size: 1rem;
-  font-style: italic;
-  margin-top: 0.25rem;
-  text-shadow: 0 0 5px #00e0ff88;
+  color: #ffffff; /* bold white */
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-shadow: 0 0 8px #000000;
 }
 
 .site-header:hover {
