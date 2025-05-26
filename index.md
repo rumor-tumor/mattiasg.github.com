@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<a href="/">
+  <img src="/assets/img/final_logo.webp" alt="Home" style="height: 60px; position: fixed; top: 10px; left: 20px; z-index: 999;">
+</a>
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
