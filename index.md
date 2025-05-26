@@ -3,7 +3,7 @@ layout: default
 ---
 
 <a href="/">
-  <img src="/assets/img/logo.png" alt="Home" style="height: 60px; position: fixed; top: 10px; left: 20px; z-index: 999;">
+  <img src="/assets/img/logo.png" alt="Home" style="height: 400px; position: fixed; top: 20px; left: 20px; z-index: 999;">
 </a>
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
